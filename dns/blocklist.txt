@@ -10,3 +10,4 @@ comm-main.ess.apple.com
 comm-cohort.ess.apple.com
 axm-app.apple.com
 gdmf.apple.com
+guzzoni-apple-com.v.aaplimg.com
