@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#(dns by khơindvn)</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Block ADS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
+			<key>PayloadOrganization</key>
+			<string>khơindvn</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>00008030-0009756E1A50802E#1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>appattest.apple.com</string>
+					<string>vpp.itunes.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>gdmf.apple.com</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Anti Revoke Cert ✅</string>
+			<key>PayloadIdentifier</key>
+			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
+			<key>PayloadOrganization</key>
+			<string>khơindvn</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>00008030-0009756E1A50802E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Khơindvn
+
+Bật: Anti revoke cert-Nên nhé
+
+Turn on: Anti revoke certificate - Should be</string>
+	<key>PayloadDisplayName</key>
+	<string>Khơindvn</string>
+	<key>PayloadIdentifier</key>
+	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>00008030-0009756E1A50802E-khoindvn</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
