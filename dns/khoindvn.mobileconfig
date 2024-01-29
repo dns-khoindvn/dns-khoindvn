@@ -21,7 +21,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>00008030-0009756E1A50802E#1</string>
+			<string>61eda447-5fc8-4edd-a53b-59e7a901192d</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -47,7 +47,7 @@
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Anti Revoke Cert ✅</string>
+			<string>Anti Revoke Cert</string>
 			<key>PayloadIdentifier</key>
 			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
 			<key>PayloadOrganization</key>
@@ -55,27 +55,25 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>00008030-0009756E1A50802E</string>
+			<string>09555fe2-5860-483b-9361-94a8cd58ed7e</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Khơindvn
+	<string>- Khơindvn
 
-Bật: Anti revoke cert-Nên nhé
+- Bật: Anti revoke cert-Nên nhé
 
-Turn on: Anti revoke certificate - Should be</string>
+- Turn on: Anti revoke certificate - Should be</string>
 	<key>PayloadDisplayName</key>
-	<string>Khơindvn</string>
+	<string>DNS-Khơindvn</string>
 	<key>PayloadIdentifier</key>
 	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>00008030-0009756E1A50802E-khoindvn</string>
+	<string>afae172e-d88b-42ff-8a42-029cf5dd1387</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
