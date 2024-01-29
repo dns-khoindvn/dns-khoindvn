@@ -10,10 +10,10 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#khơindvn</string>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>BlockAds 💕</string>
+			<string>BlockAds</string>
 			<key>PayloadIdentifier</key>
 			<string>vevrl9air2.cloudflare-gateway.com.profile</string>
 			<key>PayloadOrganization</key>
@@ -48,7 +48,7 @@
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Anti Revoke Cert ✅</string>
+			<string>Anti-Revoke-Cert-✅</string>
 			<key>PayloadIdentifier</key>
 			<string>khoindvn.bio.link.profile</string>
 			<key>PayloadOrganization</key>
@@ -62,7 +62,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>✅</string>
+	<string>-_-</string>
 	<key>PayloadDisplayName</key>
 	<string>DNS Khơindvn</string>
 	<key>PayloadIdentifier</key>
