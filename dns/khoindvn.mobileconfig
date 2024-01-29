@@ -10,18 +10,41 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#(dns by khơindvn)</string>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#khơindvn</string>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>EvaluateConnection</string>
+					<key>ActionParameters</key>
+					<array>
+						<dict>
+							<key>DomainAction</key>
+							<string>NeverConnect</string>
+							<key>Domains</key>
+							<array>
+								<string>dav.orange.fr</string>
+								<string>msg.t-mobile.com</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDisplayName</key>
-			<string>Block ADS</string>
+			<string>BlockAds 💕</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
+			<string>khoindvn.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
+			<string>Khơindvn</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>61eda447-5fc8-4edd-a53b-59e7a901192d</string>
+			<string>EC9D5E9D-2978-4AD0-8087-1C65C866C50A. com.khoindvn.dnsSettings.managed.managed</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -44,36 +67,35 @@
 					<string>comm-cohort.ess.apple.com</string>
 					<string>axm-app.apple.com</string>
 					<string>gdmf.apple.com</string>
+					<string>guzzoni-apple-com.v.aaplimg.com</string>
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Anti Revoke Cert</string>
+			<string>Anti Revoke Cert ✅</string>
 			<key>PayloadIdentifier</key>
-			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
+			<string>khoindvn.bio.link.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
 			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
+			<string>Khơindvn</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>09555fe2-5860-483b-9361-94a8cd58ed7e</string>
+			<string>5A31FA24-FF8C-41EA-989E-F070820F2A80. com.khoindvn.dnsSettings.managed</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>- Khơindvn
-
-- Bật: Anti revoke cert-Nên nhé
-
-- Turn on: Anti revoke certificate - Should be</string>
+	<string>✅</string>
 	<key>PayloadDisplayName</key>
-	<string>DNS-Khơindvn</string>
+	<string>DNS</string>
 	<key>PayloadIdentifier</key>
-	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
+	<string>khoindvn.cloudflare.warp.36BA25A1-0422-4F39-8359-050A580B8112</string>
+	<key>PayloadScope</key>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>afae172e-d88b-42ff-8a42-029cf5dd1387</string>
+	<string>BD3ED890-DA40-4169-8C30-4103233E17D0</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
