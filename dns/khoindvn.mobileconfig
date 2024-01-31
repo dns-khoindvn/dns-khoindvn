@@ -12,6 +12,13 @@
 				<key>ServerURL</key>
 				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDisplayName</key>
 			<string>BlockAds</string>
 			<key>PayloadIdentifier</key>
@@ -21,7 +28,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>EC9D5E9D-2978-4AD0-8087-1C65C866C50A.vevrl9air2.cloudflare-gateway.com</string>
+			<string>vevrl9air2.cloudflare-gateway.com</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -29,7 +36,10 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>ServerAddresses</key>
-				<array/>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+				</array>
 				<key>SupplementalMatchDomains</key>
 				<array>
 					<string>ocsp.apple.com</string>
@@ -47,6 +57,13 @@
 					<string>guzzoni-apple-com.v.aaplimg.com</string>
 				</array>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDisplayName</key>
 			<string>Anti-Revoke-Cert-✅</string>
 			<key>PayloadIdentifier</key>
@@ -56,13 +73,13 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>5A31FA24-FF8C-41EA-989E-F070820F2A80.khoindvn.bio.link</string>
+			<string>khoindvn.bio.link</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>-_-</string>
+	<string></string>
 	<key>PayloadDisplayName</key>
 	<string>DNS Khơindvn</string>
 	<key>PayloadIdentifier</key>
@@ -72,7 +89,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>BD3ED890-DA40-4169-8C30-4103233E17D0.dnsSettings.managed</string>
+	<string>khoindvn.cloudflare-gateway.com.dnsSettings.managed</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
