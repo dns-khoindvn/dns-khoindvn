@@ -20,11 +20,11 @@
 				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
-			<string>BlockAds</string>
+			<string>Chặn thu hồi ( Có chặn ADS ) ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>vevrl9air2.cloudflare-gateway.com.profile</string>
 			<key>PayloadOrganization</key>
-			<string>Khơindvn</string>
+			<string>Blocking Cert Revocation Yes Block Ads</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -35,26 +35,25 @@
 		<dict>
 			<key>DNSSettings</key>
 			<dict>
-				<key>ServerAddresses</key>
-				<array>
-					<string>1.1.1.1</string>
-					<string>1.0.0.1</string>
-				</array>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
 				<key>SupplementalMatchDomains</key>
 				<array>
 					<string>ocsp.apple.com</string>
 					<string>ocsp2.apple.com</string>
-					<string>certs.apple.com</string>
-					<string>crl.apple.com</string>
-					<string>valid.apple.com</string>
 					<string>mesu.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>certs.apple.com</string>
 					<string>appattest.apple.com</string>
 					<string>vpp.itunes.apple.com</string>
-					<string>comm-main.ess.apple.com</string>
-					<string>comm-cohort.ess.apple.com</string>
-					<string>axm-app.apple.com</string>
-					<string>gdmf.apple.com</string>
 					<string>guzzoni-apple-com.v.aaplimg.com</string>
+					<string>gdmf.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
 				</array>
 			</dict>
 			<key>OnDemandRules</key>
@@ -65,11 +64,11 @@
 				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
-			<string>Anti-Revoke-Cert-✅</string>
+			<string>Chặn thu hồi ( Không chặn ADS ) ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>khoindvn.bio.link.profile</string>
 			<key>PayloadOrganization</key>
-			<string>Khơindvn</string>
+			<string>Blocking Cert Revocation No Block Ads</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -79,7 +78,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string></string>
+	<string>Bug fix</string>
 	<key>PayloadDisplayName</key>
 	<string>DNS Khơindvn</string>
 	<key>PayloadIdentifier</key>
