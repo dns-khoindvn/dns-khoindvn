@@ -13,19 +13,29 @@
 					<key>url</key>
 					<string>https://github.com/dns-khoindvn/dns-khoindvn/raw/main/Esign-ipa/TrollInstallerX.ipa</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://api.cococloud-signing.online/files/premium/icon/icon-premium.jpeg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://api.cococloud-signing.online/files/premium/icon/icon-premium.jpeg</string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Alfie.TrollInstallerX</string>
+				<string>com.cococloud6662aacd2cd29</string>
 				<key>bundle-version</key>
 				<string>1</string>
 				<key>kind</key>
 				<string>software</string>
-				<key>subtitle</key>
-				<string>App subtitle</string>
 				<key>title</key>
-				<string>TrollInstallerX</string>
+				<string>TrollInstallerX - Khơindvn</string>
 			</dict>
 		</dict>
 	</array>
