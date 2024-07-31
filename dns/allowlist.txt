@@ -1,5 +1,3 @@
-googleadservices.com
-doubleclick.net
-adservice.google.com
-googlesyndication.com
-googletagservices.com
+googleads.g.doubleclick.net
+pagead2.googlesyndication.com
+www.googleadservices.com
