@@ -1,3 +1,0 @@
-googleads.g.doubleclick.net
-pagead2.googlesyndication.com
-www.googleadservices.com
